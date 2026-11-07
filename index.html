@@ -1,33 +1,70 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="shortcut icon" href="android.ico" type="image/x-icon">
-        <title>Teste Web site</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="android.ico" type="image/x-icon">
+    <title>Teste Web site</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 
-    <body>
-        <header>
-            <h1>Nome do Projeto</h1>
-        </header>
-        <nav>
-            <ul>
-                <li>Home</li>
-                <li>Contato</li>
-                <li>Sobre</li>
-            </ul>
-        </nav>
-        <main>
-            <article>
+<style>
+    /* adicionado fonte do google fonts*/
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
-            </article>
-        </main>
-        <footer>
-            <p>Site em desenvolvimento</p>
-        </footer>
-    </body>
+    /* adicinando fontes externa baixada no servidor*/
+    /*@font-face {
+    font-family:'Android' ;
+    src: url('/projeto_modulo2/fontes/idroid.otf') format(opentype);
+    font-weight: normal;
+}*/
+
+    :root {
+        /* rais da arvore, tudo que for configurado sevirar para todo o documento*/
+        /* cores */
+        --cor0: #c5ebd6;
+        --cor1: #83e1ad;
+        --cor2: #3ddc84;
+        --cor3: #2fa866;
+        --cor4: #1a5c37;
+        --cor5: #063d1e;
+
+        /* fontes */
+        --font-padrao: Arial, Verdana, Helvetica, sans-serif;
+        --font-bebas: "Bebas Neue", sans-serif;
+        /* --font-andoid: 'Android'; */
+    }
+
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    body {
+        background-color: var(--cor0);
+    }
+</style>
+
+<body>
+    <header>
+        <h1>Nome do Projeto</h1>
+    </header>
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>Contato</li>
+            <li>Sobre</li>
+        </ul>
+    </nav>
+    <main>
+        <article>
+
+        </article>
+    </main>
+    <footer>
+        <p>Site em desenvolvimento</p>
+    </footer>
+</body>
 
 </html>
